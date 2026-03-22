@@ -148,7 +148,7 @@ export default defineConfig({
     setupFiles: ['./src/tests/setup.ts']
   },
   server: serverOptions,
-  base: '',
+  base: '/tgweb/',
   build: {
     target: 'es2020',
     sourcemap: true,
